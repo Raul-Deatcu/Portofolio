@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Raul Deatcu's portofolio</title>
+</head>
+<body>
+
+  <video playsinline autoplay muted loop id="bgvid">
+    <source src="D:\Production\Web Projects\Geobis Intelligence\resources\video.mp4" type="video/mp4">
+  </video>
+
+  <div class="pageBG">
+    <h6>.</h6>
+  </div>
+
+  <header>
+    <h1 class="portofTitle">Raul Deatcu's portofolio</h1>
+    <p>_____________________________________________________________________________________________</p> <br>
+  </header>
+
+  <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+  <!-- Filter by skill & technology -->
+
+  <span class="filtSkillTech" style="font-weight:bold;">Show all the projects that include at least 1 of the following:</span> <br>
+  <p></p>
+  <span class="filtSkillTech">Software</span> <br>
+
+  <input type="checkbox"  id="all"  checked>
+  <input type="checkbox"  id="skthFLgee">
+  <label for="skthFLgee">
+    <img class="FLiconLogo" src="./resources/icons/geeICONfull.png" alt="Google Earth Engine (GEE) icon" title="Google Earth Engine (GEE)">
+  </label>
+
+  <input type="checkbox"  id="skthFLjs">
+  <label for="skthFLjs">
+    <img class="FLiconLogo" src="./resources/icons/javascriptICONfull.png" alt="Javascript icon" title="Javascript">
+  </label>
+
+  <input type="checkbox"  id="skthFLarcgispro">
+  <label for="skthFLarcgispro">
+    <img class="FLiconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro">
+  </label>
+
+  <input type="checkbox"  id="skthFLqgis">
+  <label for="skthFLqgis">
+    <img class="FLiconLogo" src="./resources/icons/qgisCONfull.png" alt="QGIS icon"  title="QGIS">
+  </label>
+
+  <input type="checkbox"  id="skthFLvscode">
+  <label for="skthFLvscode">
+    <img class="FLiconLogo" src="./resources/icons/visualstudioICONfull.png" alt="Visual Studio icon" title="Visual Studio">
+  </label>
+
+  <input type="checkbox"  id="skthFLaerialod">
+  <label for="skthFLaerialod">
+    <img class="FLiconLogo" src="./resources/icons/aerialodICONfull.png" alt="Aerialod icon" title="Aerialod">
+  </label> 
+
+  <input type="checkbox"  id="skthFLfieldmaps">
+  <label for="skthFLfieldmaps">
+    <img class="FLiconLogo" src="./resources/icons/fieldmapsICONfull.png" alt="ArcGIS Field Maps icon" title="ArcGIS Field Maps">
+  </label>
+
+  <input type="checkbox"  id="skthFLoffice">
+  <label for="skthFLoffice">
+    <img class="FLiconLogo" src="./resources/icons/officesuiteICONfull.png" alt="Office Suite of Microsot / Google icon" title="Office Suite of Microsot / Google">
+  </label> 
+
+  <input type="checkbox"  id="skthFLarcmap">
+  <label for="skthFLarcmap">
+    <img class="FLiconLogo" src="./resources/icons/arcmapICONfull.png" alt="ArcMap icon" title="Arcmap">
+  </label>
+
+  <input type="checkbox"  id="skthFLpostgresql">
+  <label for="skthFLpostgresql">
+    <img class="FLiconLogo" src="./resources/icons/postgresqlICONfull.png" alt="PostgreSQL icon" title="PostgreSQL">
+  </label>
+  
+  <input type="checkbox"  id="skthFLsaga">
+  <label for="skthFLsaga">
+    <img class="FLiconLogo" src="./resources/icons/sagaICONfull.svg" alt="SAGA GIS icon" title="SAGA GIS">
+  </label>
+
+  <p></p>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- Filter projects by domains -->
+  <span class="filtSkillTech">Domains</span> <br>
+
+  <input type="checkbox"  id="FLenvironment">
+  <label class="labelText" for="FLenvironment">
+    <div id="environment">Environment</div>
+  </label>
+
+  <input type="checkbox"  id="FLhumanitarian">
+  <label class="labelText" for="FLhumanitarian">
+    <div id="humanitarian">Humanitarian</div>
+  </label>
+
+  <input type="checkbox"  id="FLtourism">
+  <label class="labelText" for="FLtourism">
+    <div id="tourism">Tourism</div>
+  </label>
+
+  <input type="checkbox"  id="FLintelligence">
+  <label class="labelText" for="FLintelligence">
+    <div id="intelligence">Intelligence / Defence</div>
+  </label>
+
+  <input type="checkbox"  id="FLterritorialPlanning">
+  <label class="labelText" for="FLterritorialPlanning">
+    <div  id="territorialPlanning">Territorial Planning</div>
+  </label>
+
+  <input type="checkbox"  id="FLhistory">
+  <label class="labelText" for="FLhistory">
+    <div  id="history">History</div>
+  </label>
+
+  <input type="checkbox"  id="FLhealth">
+  <label class="labelText" for="FLhealth">
+    <div  id="health">Health</div>
+  </label>
+
+  <input type="checkbox"  id="FLbusiness">
+  <label class="labelText" for="FLbusiness">
+    <div  id="business">Business</div>
+  </label>
+
+  <input type="checkbox"  id="FLengineering">
+  <label class="labelText" for="FLengineering">
+    <div  id="engineering">Engineering</div>
+  </label>
+  <p></p>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- Filter projects by skills -->
+
+  <span class="filtSkillTech">Skills</span> <br>
+
+  <input type="checkbox"  id="FLlidar">
+  <label class="labelText" for="FLlidar">
+    <div class="domain" id="lidar">LiDAR</div>
+  </label>
+
+  <input type="checkbox"  id="FLradar">
+  <label class="labelText" for="FLradar">
+    <div class="domain" id="radar">Radar</div>
+  </label>
+
+  <input type="checkbox"  id="FLmultispectraloptical">
+  <label class="labelText" for="FLmultispectraloptical">
+    <div class="domain" id="multispectraloptical">Multispectral Optical</div>
+  </label>
+
+  <input type="checkbox"  id="FLnework">
+  <label class="labelText" for="FLnework">
+    <div class="domain" id="nework">Network Analysis</div>
+  </label>
+
+  <input type="checkbox"  id="FLcartography">
+  <label class="labelText" for="FLcartography">
+    <div class="domain" id="cartography">Cartography</div>
+  </label>
+
+  <input type="checkbox"  id="FLprogramming">
+  <label class="labelText" for="FLprogramming">
+    <div class="domain" id="programming">Programming</div>
+  </label>
+
+  <input type="checkbox"  id="FLdatabases">
+  <label class="labelText" for="FLdatabases">
+    <div class="domain" id="databases">Databases</div>
+  </label>
+
+  <input type="checkbox"  id="FLautomation">
+  <label class="labelText" for="FLautomation">
+    <div class="domain" id="automation">Process automation</div>
+  </label>
+
+  <input type="checkbox"  id="FLresearch">
+  <label class="labelText" for="FLresearch">
+    <div class="domain" id="research">Research</div>
+  </label>
+
+  <input type="checkbox"  id="FLwebGIS">
+  <label class="labelText" for="FLwebGIS">
+    <div class="domain" id="webGIS">WebGIS</div>
+  </label>
+
+  <input type="checkbox"  id="FLdem">
+  <label class="labelText" for="FLdem">
+    <div class="domain" id="dem">Terrain Model</div>
+  </label>
+
+  <p>_____________________________________________________________________________________________</p> <br>
+
+  <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- Projects main container -->
+  <div class="projContainer">
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+  <!-- Project 1 -->
+    <div class="projCard skthFLgee skthFLjs FLenvironment FLhumanitarian FLpolitics FLintelligence FLhistory FLwebgis FLprogramming FLresearch FLmultispectraloptical" id="a1">
+      <h3>SEMANTIC DATA CUBE ON DEMAND</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/geeICONfull.png" alt="Google Earth Engine (GEE) icon" title="Google Earth Engine (GEE)"></div>
+        <div class="skillBlock" ><img class="iconLogo" src="./resources/icons/javascriptICONfull.png" alt="Javascript icon" title="Javascript"></div>
+      </div>
+      <div class="field">
+        <div id="humanitarian">Humanitarian</div>
+        <div id="environment">Environment</div>
+        <div id="territorialPlanning">Territorial Planning</div>
+        <div id="intelligence">Intelligence / Defense</div>
+        <div id="history">History</div>
+      </div>
+    </div>
+
+    <!-- Project 1 Modal -->
+    <div id="myModal1" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close1">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj1" href="https://rauldeatcu99.users.earthengine.app/view/semantic-data-cube---raul-deatcu" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title"> Semantic data cube on demand for spatial time series analysis application</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">The application was created using the Google Earth Engine platform, through the JavaScript programming language.</span>
+            <br>
+            <span class="grid-child-text-description">User can create a semantic data cube on any area of ​​the globe. It can perform space-time analysis directly in the application or download the cube on your personal device and integrate it into other GIS / Remote Sensing environments for custom analysis.</span>
+            <br>
+            <span class="grid-child-text-description">Link to the application:</span>
+            <br>
+            <span class="grid-child-text-description">https://rauldeatcu99.users.earthengine.app/view/semantic-data-cube---raul-deatcu</span>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/geeICONfull.png" alt="Google Earth Engine (GEE) icon" title="Google Earth Engine (GEE)"></div>
+              <div class="skillBlock" ><img class="iconLogo" src="./resources/icons/javascriptICONfull.png" alt="Javascript icon" title="Javascript"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="humanitarian">Humanitarian</div>
+            <div id="environment">Environment</div>
+            <div id="territorialPlanning">Territorial Planning</div>
+            <div id="intelligence">Intelligence / Defense</div>
+            <div id="history">History</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 2 -->
+    <div class="projCard skthFLgee skthFLjs FLenvironment FLhumanitarian FLpolitics FLintelligence FLenvironment FLwebgis FLprogramming FLresearch FLmultispectraloptical" id="a2">
+      <h3>GEE WebGIS FOR DETECTING SHIPS</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/geeICONfull.png" alt="Google Earth Engine (GEE) icon" title="Google Earth Engine (GEE)"></div>
+        <div class="skillBlock" ><img class="iconLogo" src="./resources/icons/javascriptICONfull.png" alt="Javascript icon" title="Javascript"></div>
+      </div>
+      <div class="field">
+        <div id="humanitarian">Humanitarian</div>
+        <div id="environment">Environment</div>
+        <div id="intelligence">Intelligence / Defense</div>
+      </div>
+    </div>
+
+    <!-- Project 2 Modal -->
+    <div id="myModal2" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close2">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj2" href="https://rauldeatcu99.users.earthengine.app/view/detectare-vase-maritime" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title"> Google Earth Engine (GEE) application for identifying ships in the waters of Romania's exclusive economic zone</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">The application represents the finished product of my bachelor's thesis, together with the coordinator Prof. Dr. habil. Drăguț Lucian.            </span>
+            <br>
+            <span class="grid-child-text-description">The user selects a time interval in which to perform the analysis, then generates a series of satellite images available for that time interval, and he selects the desired image for ship detection. Finally, it can download the detected ships in vector format.</span>
+            <br>
+            <span class="grid-child-text-description">Link to the application:</span>
+            <br>
+            <span class="grid-child-text-description">https://rauldeatcu99.users.earthengine.app/view/detectare-vase-maritime</span>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/geeICONfull.png" alt="Google Earth Engine (GEE) icon" title="Google Earth Engine (GEE)"></div>
+              <div class="skillBlock" ><img class="iconLogo" src="./resources/icons/javascriptICONfull.png" alt="Javascript icon" title="Javascript"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="humanitarian">Humanitarian</div>
+            <div id="environment">Environment</div>
+            <div id="intelligence">Intelligence / Defense</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 3 -->
+    <div class="projCard skthFLarcgispro FLenvironment FLenvironment FLhistory FLlidar FLdem FLcartography" id="a3">
+      <h3>CHERRY LAKE SOUTH</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+      </div>
+      <div class="field">
+        <div id="environment">Environment</div>
+        <div id="history">History</div>
+      </div>
+    </div>
+
+    <!-- Project 3 Modal -->
+    <div id="myModal3" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close3">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj3" href="https://drive.google.com/file/d/1IYwOYhDRf5mRa0JzmJF8E4WmmD8t8d-Z/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">Modern Reinterpretation of the Cherry Lake South Map, California 1990</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">Based on the original map Cherry Lake South Map, CA 1990 - USGS Topographic Map we made a modern reinterpretation of it, adding a high fidelity elevation model due to LiDAR data and which offers a more realistic look at the relief in the area.</span>
+            <br>
+            <span class="grid-child-text-description">I downloaded the original map from ArcGIS Living Atlas..</span>
+            <br>
+            <span class="grid-child-text-description">If you want to take a short look without going through the ArcGIS Living Atlas catalog, you can see the original map at the following link:</span>
+            <br>
+            <span class="grid-child-text-description">https://www.pinterest.com/pin/1990-cherry-lake-south-ca-california-usgs- topographic-map-in-2022--535013630774808766 /</span>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="environment">Environment</div>
+            <div id="history">History</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 4 -->
+    <div class="projCard skthFLarcgispro FLenvironment FLterritorialPlanning FLcartography " id="a4">
+      <h3>DECISIONS OF ESTABILISHING REGIMES OF PROTECTED AREAS</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+      </div>
+      <div class="field">
+        <div id="environment">Environment</div>
+        <div id="territorialPlanning">Territorial Planning</div>
+      </div>
+    </div>
+
+    <!-- Project 4 Modal -->
+    <div id="myModal4" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close4">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj4" href="https://drive.google.com/file/d/12ty-QgflzCkw8i-6bNfMkiDnHyynFavS/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">The decisions of establishing the regimes of protected areas in Covasna County, Romania</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">In Covasna County, as in other examples in Romania, not all protected areas were established at the same time.</span>
+            <br>
+            <span class="grid-child-text-description">Over time and due to the desire and need to conserve some natural areas for their protection, they were set in 2007, 2011 and 2016.</span>
+            <br>
+            <span class="grid-child-text-description">We can see that the protected areas set in 2007 represent the largest area in terms of area.</span>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="environment">Environment</div>
+            <div id="territorialPlanning">Territorial Planning</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 5 -->
+    <div class="projCard skthFLarcgispro skthFLfieldmaps FLtourism FLnetwork FLcartography" id="a5">
+      <h3>PARTIAL ROUTE OF BUS LINE 6 - SALZBURG</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/fieldmapsICONfull.png" alt="ArcGIS Field Maps icon" title="ArcGIS Field Maps"></div>
+      </div>
+      <div class="field">
+        <div id="tourism">Tourism</div>
+      </div>
+    </div>
+
+    <!-- Project 5 Modal -->
+    <div id="myModal5" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close5">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj5" href="https://drive.google.com/file/d/1kRGpcOzPbm0VGP2sq_mZju6SU2NZ8aU6/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">Partial route of bus line number 6 in Salzburg, Austria.</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">During my scholarship in Salzburg, Austria, I traveled a significant distance from my place of accommodation to the point where I worked and decided to document bus line 6, which I took every morning and afternoon for to travel this route between accommodation and work.</span>
+            <br>
+            <span class="grid-child-text-description">I didn't find any GIS data for the stations where it stopped, but with the ArcGIS Collector application (an app in ArcGIS Field Maps suite) I took the GPS coordinates from each station and added extra information such as the number of buses passing through that station.</span>
+            <br>
+            <span class="grid-child-text-description">I took my accommodation according to the position of the office, wanting it to be as close as possible. The funny thing is that I researched from Google Maps about the location of the office, and when I arrived in Salzburg I found out that it was actually false information and this office was on the opposite side of town.</span>
+            <br>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/fieldmapsICONfull.png" alt="ArcGIS Field Maps icon" title="ArcGIS Field Maps"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="tourism">Tourism</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 6 -->
+    <div class="projCard skthFLarcgispro FLtourism " id="a6">
+      <h3>CITASLOW INFOGRAPHIC</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+      </div>
+      <div class="field">
+        <div id="tourism">Tourism</div>
+      </div>
+    </div>
+
+    <!-- Project 6 Modal -->
+    <div id="myModal6" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close6">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj6" href="https://drive.google.com/file/d/1N0nVhjW5henkpEa9jx4KhqaXelDAPgoy/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">Cittaslow level of interest infographic</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">Cittaslow is a movement that promotes tourism in areas with low human trafficking and local signatures in terms of gastronomy, culture, history, etc.</span>
+            <br>
+            <span class="grid-child-text-description">This map is the final product of a semester project within a discipline during the scholarship in Torun, Poland.</span>
+            <br>
+            <span class="grid-child-text-description">The scholarship in Poland caught me in the middle of the COVID-19 pandemic and most of my academic activities were restricted to virtual space. However, I managed to really enjoy the local tourism of Torun at the end of the mobility and I recommend everyone to pay a visit there. They put gingerbread in almost anything ... even beer!</span>
+            <br>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="tourism">Tourism</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 7 -->
+    <div class="projCard skthFLarcgispro FLintelligence FLhumanitarian FLcartography" id="a7">
+      <h3>SIERRA LEONE CIVIL WAR</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+      </div>
+      <div class="field">
+        <div id="humanitarian">Humanitarian</div>
+        <div id="intelligence">Intelligence / Defense</div>
+      </div>
+    </div>
+
+    <!-- Project 7 Modal -->
+    <div id="myModal7" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close7">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj7" href="https://drive.google.com/file/d/1Zcw9xIQXDhlLnQR9KOCc22OhIUv2Y2IO/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">1991-2000 of the Sierra Leone Civil War</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">One quiet day when I was browsing the internet, I came across information about the Sierra Leone civil war.</span>
+            <br>
+            <span class="grid-child-text-description">To my shame, I had no knowledge of this past event and decided to research it.</span>
+            <br>
+            <span class="grid-child-text-description">I was shocked to find out information such as the massacres that took place at that time and the rest of the heinous acts.</span>
+            <br>
+            <span class="grid-child-text-description">I decided to make a map to illustrate this conflict spatially.</span>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="humanitarian">Humanitarian</div>
+            <div id="intelligence">Intelligence / Defense</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 8 -->
+    <div class="projCard skthFLarcgispro FLterritorialPlanning FLhistory FLcartography" id="a8">
+      <h3>U.S. COUNTIES DEVELOPMENT</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+      </div>
+      <div class="field">
+        <div id="territorialPlanning">Territorial Planning</div>
+        <div id="history">History</div>
+      </div>
+    </div>
+
+    <!-- Project 8 Modal -->
+    <div id="myModal8" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close8">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj8" href="https://drive.google.com/file/d/1kVHMqSfnQCnbC6-ICfgcpxqONM2d6rsS/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">Animation of U.S. Counties Development, 1800-2020</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">TWith the help of IPUMS NHGIS data, I was able to illustrate an animation of territorial development at the county level in the United States of America.</span>
+            <br>
+            <span class="grid-child-text-description">For each year I made a separate map and at the end I connected them in a video animation.</span>
+            <br>
+            <span class="grid-child-text-description">Data source: IPUMS NHGIS</span>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="territorialPlanning">Territorial Planning</div>
+            <div id="history">History</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 9 -->
+    <div class="projCard skthFLarcgispro skthFLoffice FLcartography FLenvironment FLterritorialPlanning" id="a9">
+      <h3>OLD REP. OF IASI NATURAL SETTING</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/officesuiteICONfull.png" alt="Microsoft / Google office suite icon" title="Microsoft / Google office suite"></div>
+      </div>
+      <div class="field">
+        <div id="environment">Environment</div>
+        <div id="territorialPlanning">TerritorialPlanning</div>
+      </div>
+    </div>
+
+    <!-- Project 9 Modal -->
+    <div id="myModal9" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close9">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj9" href="https://drive.google.com/file/d/1A9nilfPDAhwmoyAL8IVyYf5YLgIrOU4X/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title"> Old cartographic representation of the location of Iași city (Romania) in the natural setting</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">This is the first map in a series of 3 that shows an old cartographic style applied to the current picture of the city of Iasi in Romania.</span>
+            <br>
+            <span class="grid-child-text-description">In this map we are shown the territorial administrative unit of the city of Iasi and the natural environment in which it is positioned.</span>
+            <br>
+            <span class="grid-child-text-description">Elements of the natural environment such as the types of river by size, protected areas and others ... are present in the map.</span>
+            <br>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/officesuiteICONfull.png" alt="Microsoft / Google office suite icon" title="Microsoft / Google office suite"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="environment">Environment</div>
+            <div id="territorialPlanning">TerritorialPlanning</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 10 -->
+    <div class="projCard skthFLarcgispro skthFLoffice FLcartography FLenvironment FLterritorialPlanning" id="a10">
+      <h3>OLD REP. OF IASI L.U. & FUNCTIONAL AREAS</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/officesuiteICONfull.png" alt="Microsoft / Google office suite icon" title="Microsoft / Google office suite"></div>
+      </div>
+      <div class="field">
+        <div id="environment">Environment</div>
+        <div id="territorialPlanning">TerritorialPlanning</div>
+      </div>
+    </div>
+
+    <!-- Project 10 Modal -->
+    <div id="myModal10" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close10">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj10" href="https://drive.google.com/file/d/1egzCebTkkq2GKAQgLUlRweEsA09F1q_q/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">Land use and functional areas of the Iasi city</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">This is the second map in a series of 3 that shows an old cartographic style applied to the current picture of the city of Iasi in Romania.</span>
+            <br>
+            <span class="grid-child-text-description">According to the data, the city of Iasi has 15 forms of land use and 7 functional areas.</span>
+            <br>
+            <span class="grid-child-text-description">Functional areas refer to the division of space after its use such as: industrial area, residential area, agricultural area and so on ...</span>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/officesuiteICONfull.png" alt="Microsoft / Google office suite icon" title="Microsoft / Google office suite"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="environment">Environment</div>
+            <div id="territorialPlanning">TerritorialPlanning</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 11 -->
+    <div class="projCard skthFLarcgispro skthFLoffice FLcartography FLterritorialPlanning" id="a11">
+      <h3>IASI CITY AT 3 DIFFERENT SCALES</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+      </div>
+      <div class="field">
+        <div id="territorialPlanning">TerritorialPlanning</div>
+      </div>
+    </div>
+
+    <!-- Project 11 Modal -->
+    <div id="myModal11" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close11">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj11" href="https://drive.google.com/file/d/1HPkbZgZofFQxHvCyK2zIXQrf9UurjsYI/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">Location of Iasi city on 3 different scales</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">This is the third map in a series of 3 that shows an old cartographic style applied to the current picture of the city of Iasi in Romania.</span>
+            <br>
+            <span class="grid-child-text-description">The map shows the geographical position of the city of Iasi at 2 different scales. A first scale is given by the national positioning. The second illustrates the positioning at county level.</span>
+            <br>
+            <span class="grid-child-text-description">The last scale presents the city of Iasi itself with the transport system.</span>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="territorialPlanning">TerritorialPlanning</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 12 -->
+    <div class="projCard skthFLarcmap FLcartography FLhistory" id="a12">
+      <h3>WOMEN'S SUFFRAGE WORLDWIDE</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcmapICONfull.png" alt="ArcMap icon" title="ArcMap"></div>
+      </div>
+      <div class="field">
+        <div id="history">History</div>
+      </div>
+    </div>
+
+    <!-- Project 12 Modal -->
+    <div id="myModal12" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close12">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj12" href="https://drive.google.com/file/d/1zWXkGYwy9cqNHw6Hp1ygV1jil4eYviyQ/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">Map of Women's Suffrage Worldwide</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">After watching a documentary on obtaining the right to vote for women in the United States of America, I decided to document myself more on this topic, but on a global scale and so I came to illustrate this topic with a map.</span>
+            <br>
+            <span class="grid-child-text-description">I was surprised to find that even the most civilized and modern countries in the world offered the right to vote for women very late.</span>
+            <br>
+            <span class="grid-child-text-description">However, it is sad that in the modern world there are still countries where women do not have equal rights with men.</span>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcmapICONfull.png" alt="ArcMap icon" title="ArcMap"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="history">History</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 13 -->
+    <div class="projCard skthFLqgis skthFLaerialod FLtourism FLterritorialPlanning" id="a13">
+      <h3>3D TIMISOARA CITY CENTER</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/aerialodICONfull.png" alt="Aerialod icon" title="Aerialod"></div>
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/qgisCONfull.png" alt="QGIS icon" title="QGIS"></div>
+      </div>
+      <div class="field">
+        <div id="territorialPlanning">Territorial Planning</div>
+        <div id="tourism">Tourism</div>
+      </div>
+    </div>
+
+    <!-- Project 13 Modal -->
+    <div id="myModal13" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close13">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj13" href="https://drive.google.com/file/d/1w_Re7b-Ky5s9sjCQleA2DBrCZFWntBpk/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">3D Cartographic representation of Timisoara city center</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">After discovering the Aerialod software, I decided to try it to represent 3D data of downtown Timisoara, such as buildings, green spaces, transportation system and so on.</span>
+            <br>
+            <span class="grid-child-text-description">The software is very good and easy to represent data that can be differentiated into Z, such as DEM. However, you can let your creativity try to cross this line and see how it behaves with other types of data even if it has visual limitations.</span>
+            <br>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/aerialodICONfull.png" alt="Aerialod icon" title="Aerialod"></div>
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/qgisCONfull.png" alt="QGIS icon" title="QGIS"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="territorialPlanning">Environment</div>
+            <div id="tourism">Tourism</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 14 -->
+    <div class="projCard skthFLarcgispro FLcartography FLhealth" id="a14">
+      <h3>COVID-19 DEATHS RELATED TO TUBERCULOSIS VACCINATION</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+      </div>
+      <div class="field">
+        <div id="health">Health</div>
+      </div>
+    </div>
+
+    <!-- Project 14 Modal -->
+    <div id="myModal14" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close14">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj14" href="https://drive.google.com/file/d/1frgZ8FwrZZNRq5soFz-bK8SNYJfff4_x/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">Map of the Deaths of COVID-19 at 16.04.2020 Related to Tuberculosis Vaccination Policy in Europe</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">At the beginning of the COVID-19 pandemic, not much information was known about this virus and there was much speculation about it.</span>
+            <br>
+            <span class="grid-child-text-description">Statements have been made that the degree of mortality may be related to tuberculosis vaccination and I have decided to make a map showing the tuberculosis vaccination policy and the number of deaths in each country in Europe.</span>
+            <br>
+            <span class="grid-child-text-description">The results are inconclusive.</span>
+            <br>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="health">Health</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 15 -->
+    <div class="projCard skthFLarcgispro skthFLoffice FLcartography FLtourism" id="a15">
+      <h3>WORLD TOURIST FLOW</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/officesuiteICONfull.png" alt="Microsoft / Google office suite icon" title="Microsoft / Google office suite"></div>
+      </div>
+      <div class="field">
+        <div id="tourism">Tourism</div>
+      </div>
+    </div>
+
+    <!-- Project 15 Modal -->
+    <div id="myModal15" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close15">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj15" href="https://drive.google.com/file/d/1pwDw-RctE9pxNbbVo1bA9c_m7JijgBPx/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">The world tourist flow by regions to western Europe</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">The map illustrates the flow of tourists from the Middle East, Africa, Asia & the Pacific, America and Europe to the Western European region.</span>
+            <br>
+            <span class="grid-child-text-description">The largest flow of tourists to this region comes from Europe, followed by America and the last place is the Middle East.</span>
+            <br>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/officesuiteICONfull.png" alt="Microsoft / Google office suite icon" title="Microsoft / Google office suite"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="tourism">Tourism</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 16 -->
+    <div class="projCard skthFLgee skthFLoffice skthFLarcmap FLenvironment FLterritorialPlanning " id="a16">
+      <h3>HUMAN ACTIVITY ON THE NATIONAL PARK</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/geeICONfull.png" alt="Google Earth Engine icon" title="Google Earth Engine"></div>
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcmapICONfull.png" alt="ArcMap icon" title="ArcMap"></div>
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/officesuiteICONfull.png" alt="Microsoft / Google office suite icon" title="Microsoft / Google office suite"></div>
+      </div>
+      <div class="field">
+        <div id="territorialPlanning">Territorial Planning</div>
+        <div id="environment">Environment</div>
+      </div>
+    </div>
+
+    <!-- Project 16 Modal -->
+    <div id="myModal16" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close16">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj16" href="https://drive.google.com/file/d/1_fuMNGkS6qKirEhfBA67HV6AafrhcfD5/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">The intensity of human activity on the national parks in Romania in 2016</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">The data at the base of the map are from "Managing the middle: A shift in conservation priorities based on the global human modification gradient." by Kennedy C.M. et al.</span>
+            <br>
+            <span class="grid-child-text-description">We have 5 stressors associated with human activity: human settlements, agriculture, transportation, mining and energy production, electrical infrastructure.</span>
+            <br>
+            <span class="grid-child-text-description">We notice that in the large national parks the anthropic activity is smaller than the surface ones than the small ones.</span>
+            <br>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/geeICONfull.png" alt="Google Earth Engine icon" title="Google Earth Engine"></div>
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcmapICONfull.png" alt="ArcMap icon" title="ArcMap"></div>
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/officesuiteICONfull.png" alt="Microsoft / Google office suite icon" title="Microsoft / Google office suite"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="territorialPlanning">Territorial Planning</div>
+            <div id="environment">Environment</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 17 -->
+    <div class="projCard skthFLarcgispro FLdem FL environment" id="a17">
+      <h3>APUSENI MOUNTAINS JOY PLOT MAP</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+      </div>
+      <div class="field">
+        <div id="environment">Environment</div>
+      </div>
+    </div>
+
+    <!-- Project 17 Modal -->
+    <div id="myModal17" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close17">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj17" href="https://drive.google.com/file/d/11g5TkQqxlGks-XFRWuaH_tV121HoAacH/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">Joy Plot Map of Apuseni Mountains</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">There was a trend in which the elevation models were represented by joy plots and I said to climb this wave too :)</span>
+            <br>
+            <span class="grid-child-text-description">The process was not one of the easiest but I learned a lot and had fun during it!</span>
+            <br>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="environment">Environment</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 18 -->
+    <div class="projCard skthFLarcgispro skthFLoffice FLcartography FLbusiness" id="a18">
+      <h3>CARTOGRAPHIC REPRESENTATION OF LEGO TERM</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/officesuiteICONfull.png" alt="Microsoft / Google office suite icon" title="Microsoft / Google office suite"></div>
+      </div>
+      <div class="field">
+        <div id="business">Business</div>
+      </div>
+    </div>
+
+    <!-- Project 18 Modal -->
+    <div id="myModal18" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close18">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj18" href="https://drive.google.com/file/d/1xQ6kW3_J1FQcE_XSL9oThwGDj1511vqw/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">Cartographic and Graphic Representation of "Lego" term in Romania in 2004-2020 years</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">This is one of my favorite projects due to the fact that through it I won the 1st place in a cartographic competition held at national level in Romania.</span>
+            <br>
+            <span class="grid-child-text-description">The project illustrates from a spatial point of view the interest for the term "Lego" in Romania, but also graphically in the time interval 2004-2020.</span>
+            <br>
+            <span class="grid-child-text-description">It is very clear that the highest interest is in the area of December.</span>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/officesuiteICONfull.png" alt="Microsoft / Google office suite icon" title="Microsoft / Google office suite"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="business">Business</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 19 -->
+    <div class="projCard skthFLpostgresql skthFLqgis FLcartography FLtourism FLterritorialPlanning" id="a19">
+      <h3>IASI TOURISTIC SYSTEM</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/qgisCONfull.png" alt="QGIS icon" title="QGIS"></div>
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/postgresqlICONfull.png" alt="PostgreSQL icon" title="PostgreSQL"></div>
+      </div>
+      <div class="field">
+        <div id="territorialPlanning">Territorial Planning</div>
+        <div id="tourism">Tourism</div>
+      </div>
+    </div>
+
+    <!-- Project 19 Modal -->
+    <div id="myModal19" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close19">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj19" href="https://drive.google.com/file/d/1lEl0XrplIxWG9mE31DhkRyQK_MGtA2wk/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">Touristic system of Iasi - Romania</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">The representative elements for the tourist system are the tourist objectives, the infrastructure such as hotels, infocenters and so on ... and the transport system.</span>
+            <br>
+            <span class="grid-child-text-description">The data was obtained from Openstreetmap and due to the fact that it was a large amount of data, in order to reach the final product, it had to be filtered using SQL.</span>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/icons\qgisCONfull.png" alt="QGIS icon" title="QGIS"></div>
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/postgresqlICONfull.png" alt="PostgreSQL icon" title="PostgreSQL"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="territorialPlanning">Territorial Planning</div>
+            <div id="tourism">Tourism</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 20 -->
+    <div class="projCard skthFLarcmap FLenvironment" id="a20">
+      <h3>FOREST DISTRIBUTION DIFFERENCE</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcmapICONfull.png" alt="ArcMap icon" title="ArcMap"></div>
+      </div>
+      <div class="field">
+        <div id="environment">Environment</div>
+      </div>
+    </div>
+
+    <!-- Project 20 Modal -->
+    <div id="myModal20" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close20">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj20" href="https://drive.google.com/file/d/1_mw516AxlTkK6i8mVeIMF4lpBUrEi4HA/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">Map of Forest Distribution Difference in the Hartbaciului Plateau National Park in years 1990 and 2006</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">According to the data in the Podisul Hârtibaciului National Park in Romania, in the period 1990-2006 there was an increase of the forest area of 0.88%.</span>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcmapICONfull.png" alt="ArcMap icon" title="ArcMap"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="environment">Environment</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+     <!-- Project 21 -->
+     <div class="projCard skthFLsaga skthFLarcgispro FLengineering FLlidar FLdem " id="a21">
+      <h3>LiDAR INTERPOLATION ALGORITHMS COMPARASION</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/sagaICONfull.svg" alt="SAGA GIS icon" title="SAGA GIS"></div>
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+      </div>
+      <div class="field">
+        <div id="engineering">Engineering</div>
+      </div>
+    </div>
+
+    <!-- Project 21 Modal -->
+    <div id="myModal21" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close21">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj21" href="https://drive.google.com/file/d/1JqCbYzGLql73yQ7BVUQv2vUmusW5B9s2/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">Comparison of interpolation algorithms for LiDAR point cloud</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">The present product shows the results of the comparison test of the IDW, Kriging and Spline algorithms for the interlopation of the LiDAR point cloud.</span>
+            <br>
+            <span class="grid-child-text-description">The most consistent result was given by the Spline algorithm, which took the longest to complete.</span>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/sagaICONfull.svg" alt="SAGA GIS icon" title="SAGA GIS"></div>
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="engineering">Engineering</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 22 -->
+    <div class="projCard skthFLarcgispro FLdem " id="a22">
+      <h3>BIELSKO-BIALA GEOLOGICAL MAP</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+      </div>
+      <div class="field">
+        <div id="environment">Environment</div>
+      </div>
+    </div>
+
+    <!-- Project 22 Modal -->
+    <div id="myModal22" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close22">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj22" href="https://drive.google.com/file/d/1k0iTkXuRaOZndnPNB8o7nkiwEQFKa2Kq/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">Modern reinterpretation of detailed geological map near Bielsko-Biala, Poland, 1997</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">Aceasta harta vine ca un produs final pentru un proiect de semestru in cadrul materiei "Geoturism" in timp bursei de studiu din Torun, Polonia.</span>
+            <br>
+            <span class="grid-child-text-description">Produsul cartografic reprezinta o imbunatatire a hartii originale prin adaugarea unui efect realistic al reliefului.</span>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="environment">Environment</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- Project 23 -->
+    <div class="projCard skthFLarcgispro FLdem " id="a23">
+      <h3>BIELSKO-BIALA GEOLOGICAL MAP</h3>
+      <div class="skillsANDtechMain">
+        <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+      </div>
+      <div class="field">
+        <div id="territorialPlanning">Territorial Planning</div>
+      </div>
+    </div>
+
+    <!-- Project 23 Modal -->
+    <div id="myModal23" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close23">&times;</span>
+        <div class="grid-parent">
+          <a class="grid-child-image" id="grid-child-image-proj23" href="https://drive.google.com/file/d/1k0iTkXuRaOZndnPNB8o7nkiwEQFKa2Kq/view?usp=sharing" target="_blank">
+          </a>
+          <div class="grid-child-text">
+            <span class="grid-child-text-title">Data cocktail of Timisoara city center, Romania</span>
+            <span>_____________________________________</span>
+            <br>
+            <span class="grid-child-text-description">I called this map "cocktail date" because it is entirely a cocktail of data from which the elements are difficult to understand and distinguish.</span>
+          </div>
+          <div class="grid-child-skills">
+            <div class="skillsANDtech">
+              <div class="skillBlock"><img class="iconLogo" src="./resources/icons/arcgisproICONfull.png" alt="ArcGIS Pro icon" title="ArcGIS Pro"></div>
+            </div>
+          </div>
+          <div class="grid-child-field">
+            <div id="territorialPlanning">Territorial Planning</div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+</div>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- JavaScript -->
+<script>
+
+//-------------------------------------------------------------------------------------------
+//Projects modals
+//-------------------------------------------------------------------------------------------
+//Modal project 1
+  var modal1 = document.getElementById("myModal1");
+  var btn1 = document.getElementById("a1");
+  var span1 = document.getElementById("close1"); 
+  btn1.onclick = function() {
+    modal1.style.display = "block";
+  }
+  span1.onclick = function() {
+    modal1.style.display = "none";
+  }
+  window.addEventListener('click', function(event) {
+    if (event.target == modal1) {
+      modal1.style.display = "none";
+    }
+  })
+//-----------------------------------------------------
+//Modal project 2
+var modal2 = document.getElementById("myModal2");
+var btn2 = document.getElementById("a2");
+var span2 = document.getElementById("close2"); 
+btn2.onclick = function() {
+  modal2.style.display = "block";
+}
+span2.onclick = function() {
+  modal2.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 3
+var modal3 = document.getElementById("myModal3");
+var btn3 = document.getElementById("a3");
+var span3 = document.getElementById("close3"); 
+btn3.onclick = function() {
+  modal3.style.display = "block";
+}
+span3.onclick = function() {
+  modal3.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal3) {
+    modal3.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 4
+var modal4 = document.getElementById("myModal4");
+var btn4 = document.getElementById("a4");
+var span4 = document.getElementById("close4"); 
+btn4.onclick = function() {
+  modal4.style.display = "block";
+}
+span4.onclick = function() {
+  modal4.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal4) {
+    modal4.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 5
+var modal5 = document.getElementById("myModal5");
+var btn5 = document.getElementById("a5");
+var span5 = document.getElementById("close5"); 
+btn5.onclick = function() {
+  modal5.style.display = "block";
+}
+span5.onclick = function() {
+  modal5.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal5) {
+    modal5.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 6
+var modal6 = document.getElementById("myModal6");
+var btn6 = document.getElementById("a6");
+var span6 = document.getElementById("close6"); 
+btn6.onclick = function() {
+  modal6.style.display = "block";
+}
+span6.onclick = function() {
+  modal6.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal6) {
+    modal6.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 7
+var modal7 = document.getElementById("myModal7");
+var btn7 = document.getElementById("a7");
+var span7 = document.getElementById("close7"); 
+btn7.onclick = function() {
+  modal7.style.display = "block";
+}
+span7.onclick = function() {
+  modal7.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal7) {
+    modal7.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 8
+var modal8 = document.getElementById("myModal8");
+var btn8 = document.getElementById("a8");
+var span8 = document.getElementById("close8"); 
+btn8.onclick = function() {
+  modal8.style.display = "block";
+}
+span8.onclick = function() {
+  modal8.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal8) {
+    modal8.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 9
+var modal9 = document.getElementById("myModal9");
+var btn9 = document.getElementById("a9");
+var span9 = document.getElementById("close9"); 
+btn9.onclick = function() {
+  modal9.style.display = "block";
+}
+span9.onclick = function() {
+  modal9.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal9) {
+    modal9.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 10
+var modal10 = document.getElementById("myModal10");
+var btn10 = document.getElementById("a10");
+var span10 = document.getElementById("close10"); 
+btn10.onclick = function() {
+  modal10.style.display = "block";
+}
+span10.onclick = function() {
+  modal10.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal10) {
+    modal10.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 11
+var modal11 = document.getElementById("myModal11");
+var btn11 = document.getElementById("a11");
+var span11 = document.getElementById("close11"); 
+btn11.onclick = function() {
+  modal11.style.display = "block";
+}
+span11.onclick = function() {
+  modal11.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal11) {
+    modal11.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 12
+var modal12 = document.getElementById("myModal12");
+var btn12 = document.getElementById("a12");
+var span12 = document.getElementById("close12"); 
+btn12.onclick = function() {
+  modal12.style.display = "block";
+}
+span11.onclick = function() {
+  modal12.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal12) {
+    modal12.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 13
+var modal13 = document.getElementById("myModal13");
+var btn13 = document.getElementById("a13");
+var span13 = document.getElementById("close13"); 
+btn13.onclick = function() {
+  modal13.style.display = "block";
+}
+span13.onclick = function() {
+  modal13.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal13) {
+    modal13.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 14
+var modal14 = document.getElementById("myModal14");
+var btn14 = document.getElementById("a14");
+var span14 = document.getElementById("close14"); 
+btn14.onclick = function() {
+  modal14.style.display = "block";
+}
+span14.onclick = function() {
+  modal14.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal14) {
+    modal14.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 15
+var modal15 = document.getElementById("myModal15");
+var btn15 = document.getElementById("a15");
+var span15 = document.getElementById("close15"); 
+btn15.onclick = function() {
+  modal15.style.display = "block";
+}
+span15.onclick = function() {
+  modal15.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal15) {
+    modal15.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 16
+var modal16 = document.getElementById("myModal16");
+var btn16 = document.getElementById("a16");
+var span16 = document.getElementById("close16"); 
+btn16.onclick = function() {
+  modal16.style.display = "block";
+}
+span16.onclick = function() {
+  modal16.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal16) {
+    modal16.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 17
+var modal17 = document.getElementById("myModal17");
+var btn17 = document.getElementById("a17");
+var span17 = document.getElementById("close17"); 
+btn17.onclick = function() {
+  modal17.style.display = "block";
+}
+span17.onclick = function() {
+  modal17.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal17) {
+    modal17.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 18
+var modal18 = document.getElementById("myModal18");
+var btn18 = document.getElementById("a18");
+var span18 = document.getElementById("close18"); 
+btn18.onclick = function() {
+  modal18.style.display = "block";
+}
+span18.onclick = function() {
+  modal18.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal18) {
+    modal18.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 19
+var modal19 = document.getElementById("myModal19");
+var btn19 = document.getElementById("a19");
+var span19 = document.getElementById("close19"); 
+btn19.onclick = function() {
+  modal19.style.display = "block";
+}
+span2.onclick = function() {
+  modal19.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal19) {
+    modal19.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 20
+var modal20 = document.getElementById("myModal20");
+var btn20 = document.getElementById("a20");
+var span20 = document.getElementById("close20"); 
+btn20.onclick = function() {
+  modal20.style.display = "block";
+}
+span20.onclick = function() {
+  modal20.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal20) {
+    modal20.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 21
+var modal21 = document.getElementById("myModal21");
+var btn21 = document.getElementById("a21");
+var span21 = document.getElementById("close21"); 
+btn21.onclick = function() {
+  modal21.style.display = "block";
+}
+span21.onclick = function() {
+  modal21.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal21) {
+    modal21.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 22
+var modal22 = document.getElementById("myModal22");
+var btn22 = document.getElementById("a22");
+var span22 = document.getElementById("close22"); 
+btn22.onclick = function() {
+  modal22.style.display = "block";
+}
+span22.onclick = function() {
+  modal22.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal22) {
+    modal22.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+//Modal project 23
+var modal23 = document.getElementById("myModal23");
+var btn23 = document.getElementById("a23");
+var span23 = document.getElementById("close23"); 
+btn23.onclick = function() {
+  modal23.style.display = "block";
+}
+span23.onclick = function() {
+  modal23.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+  if (event.target == modal23) {
+    modal23.style.display = "none";
+  }
+})
+//-----------------------------------------------------
+</script>
+
+</body>
+</html>
