@@ -22,7 +22,7 @@ body {
   margin-top: 3%;
 }
 
-video {
+#bgvid {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -187,6 +187,10 @@ label:before {
 #skthFLpostgresql:checked ~ .projContainer .skthFLpostgresql,
 #skthFLsaga:checked ~ .projContainer .skthFLsaga,
 #skthFLgithub:checked ~ .projContainer .skthFLgithub,
+#skthFLhtmlcss:checked ~ .projContainer .skthFLhtmlcss,
+#skthFLgitbashterminal:checked ~ .projContainer .skthFLgitbashterminal,
+#skthFLiqmaps:checked ~ .projContainer .skthFLiqmaps,
+#skthFLpy:checked ~ .projContainer .skthFLpy,
 #FLenvironment:checked ~ .projContainer .FLenvironment,
 #FLhumanitarian:checked ~ .projContainer .FLhumanitarian,
 #FLtourism:checked ~ .projContainer .FLtourism,
@@ -318,9 +322,11 @@ label:before {
 }
 
 .skillsANDtechMain{
+  width: 120%;
   position: absolute;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   top: -35px;
@@ -336,7 +342,7 @@ label:before {
 .skillBlock {
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  margin: 20px 2px;
   display: block;
 }
 
@@ -586,6 +592,27 @@ h3 {
   background-size: cover;
 }
 
+#a24, #grid-child-image-proj24{
+  background-image: url("./resources/a24.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#a25, #grid-child-image-proj25{
+  background-image: url("./resources/a25.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#a26, #grid-child-image-proj26{
+  background-image: url("./resources/a26.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .grid-child-image:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.438),0 12px 40px 0 rgba(0, 0, 0, 0.514);
   cursor: pointer;
@@ -598,7 +625,8 @@ h3 {
 #a13:hover, #a14:hover, #a15:hover,
 #a16:hover, #a17:hover, #a18:hover,
 #a19:hover, #a20:hover, #a21:hover,
-#a22:hover, #a23:hover {
+#a22:hover, #a23:hover, #a24:hover,
+#a25:hover, #a26:hover {
   background-color: #dadada;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
   filter: saturate(1);
@@ -611,11 +639,11 @@ h3 {
   display: none; 
   position: fixed;
   z-index: 1; 
-  padding-top: 100px;
+  padding-top: 25px;
   left: 0;
   top: 0;
   width: 100%; 
-  height: 100%; 
+  height: 123%; 
   overflow: auto; 
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0,0.4); 
@@ -649,11 +677,11 @@ h3 {
 .grid-parent {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 5fr 1fr 1fr 2fr 1fr;
+  grid-template-rows: 5fr 1fr 1fr 1fr 1fr;
   column-gap: 10px;
   row-gap: 0px;
   width: 100%;
-  height: 100%;
+  height: 90%;
   }
 
 .grid-child-image {
@@ -689,12 +717,12 @@ h3 {
 }
 
 .grid-child-text-title{
-  font-size: 16px;
+  font-size: 21px;
   font-weight: bold;
 }
 
 .grid-child-text-description{
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .grid-child-skills {

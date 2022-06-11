@@ -370,3 +370,51 @@ if (event.target == modal23) {
 }
 })
 //-----------------------------------------------------
+//Modal project 24
+var modal24 = document.getElementById("myModal24");
+var btn24 = document.getElementById("a24");
+var span24 = document.getElementById("close24"); 
+btn24.onclick = function() {
+modal24.style.display = "block";
+}
+span24.onclick = function() {
+modal24.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+if (event.target == modal24) {
+  modal24.style.display = "none";
+}
+})
+//-----------------------------------------------------
+//Modal project 25
+var modal25 = document.getElementById("myModal25");
+var btn25 = document.getElementById("a25");
+var span25 = document.getElementById("close25"); 
+btn25.onclick = function() {
+modal25.style.display = "block";
+}
+span25.onclick = function() {
+modal25.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+if (event.target == modal25) {
+  modal25.style.display = "none";
+}
+})
+//-----------------------------------------------------
+//Modal project 26
+var modal26 = document.getElementById("myModal26");
+var btn26 = document.getElementById("a26");
+var span26 = document.getElementById("close26"); 
+btn26.onclick = function() {
+modal26.style.display = "block";
+}
+span26.onclick = function() {
+modal26.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+if (event.target == modal26) {
+  modal26.style.display = "none";
+}
+})
+//-----------------------------------------------------
