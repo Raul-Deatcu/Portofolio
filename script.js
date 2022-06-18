@@ -418,3 +418,19 @@ if (event.target == modal26) {
 }
 })
 //-----------------------------------------------------
+//Modal project 27
+var modal27 = document.getElementById("myModal27");
+var btn27 = document.getElementById("a27");
+var span27 = document.getElementById("close27"); 
+btn27.onclick = function() {
+modal27.style.display = "block";
+}
+span27.onclick = function() {
+modal27.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+if (event.target == modal27) {
+  modal27.style.display = "none";
+}
+})
+//-----------------------------------------------------

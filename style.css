@@ -191,6 +191,7 @@ label:before {
 #skthFLgitbashterminal:checked ~ .projContainer .skthFLgitbashterminal,
 #skthFLiqmaps:checked ~ .projContainer .skthFLiqmaps,
 #skthFLpy:checked ~ .projContainer .skthFLpy,
+#skthFLesasnap:checked ~ .projContainer .skthFLesasnap,
 #FLenvironment:checked ~ .projContainer .FLenvironment,
 #FLhumanitarian:checked ~ .projContainer .FLhumanitarian,
 #FLtourism:checked ~ .projContainer .FLtourism,
@@ -399,7 +400,7 @@ label:before {
   padding: 100px 0px 110px 0px; 
   position: relative;
   cursor: pointer;
-  filter: saturate(0);
+  filter: saturate(1);
   transition:  background-color 0.3s, background-image 1s, box-shadow 0.3s, filter 0.5s, padding 0.5s;
 }
 
@@ -592,15 +593,29 @@ h3 {
   background-size: cover;
 }
 
-#a24, #grid-child-image-proj24{
-  background-image: url("./resources/a24.jpg");
+#a24{
+  background-image: url("./resources/a24_1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-#a25, #grid-child-image-proj25{
-  background-image: url("./resources/a25.jpg");
+#grid-child-image-proj24{
+  background-image: url("./resources/a24_2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#a25{
+  background-image: url("./resources/a25_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#grid-child-image-proj25{
+  background-image: url("./resources/a25_2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -608,6 +623,20 @@ h3 {
 
 #a26, #grid-child-image-proj26{
   background-image: url("./resources/a26.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#a27{
+  background-image: url("./resources/a27_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#grid-child-image-proj27{
+  background-image: url("./resources/a27_2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -626,7 +655,7 @@ h3 {
 #a16:hover, #a17:hover, #a18:hover,
 #a19:hover, #a20:hover, #a21:hover,
 #a22:hover, #a23:hover, #a24:hover,
-#a25:hover, #a26:hover {
+#a25:hover, #a26:hover, #a27:hover {
   background-color: #dadada;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
   filter: saturate(1);
