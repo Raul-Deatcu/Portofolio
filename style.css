@@ -201,6 +201,7 @@ label:before {
 #FLhealth:checked ~ .projContainer .FLhealth,
 #FLbusiness:checked ~ .projContainer .FLbusiness,
 #FLengineering:checked ~ .projContainer .FLengineering,
+#FLhazard:checked ~ .projContainer .FLhazard,
 #FLlidar:checked ~ .projContainer .FLlidar,
 #FLradar:checked ~ .projContainer .FLradar,
 #FLmultispectraloptical:checked ~ .projContainer .FLmultispectraloptical,
@@ -222,7 +223,7 @@ label:before {
 }
 
 #humanitarian, #tourism, #environment, #territorialPlanning, #intelligence, #history,
-#health, #business, #engineering {
+#health, #business, #engineering, #hazard{
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -281,14 +282,20 @@ label:before {
   background-color: #7c7c7cfd;
 }
 
+#hazard {
+  background-color: #ff008cfd;
+}
+
 .field #humanitarian:hover, .field #environment:hover, .field #tourism:hover,
 .field #territorialPlanning:hover, .field #intelligence:hover, .field #history:hover,
-.field #health:hover, .field #business:hover, .field #engineering:hover  {
+.field #health:hover, .field #business:hover, .field #engineering:hover,
+.field #hazard:hover   {
   font-size: 10px;
 }
 
 #humanitarian:hover, #environment:hover, #tourism:hover, #territorialPlanning:hover,
-#intelligence:hover, #history:hover, #health:hover, #business:hover, #engineering:hover {
+#intelligence:hover, #history:hover, #health:hover, #business:hover, #engineering:hover,
+#hazard:hover {
   font-size: 15px;
 }
 /* ------------------------------------------------------------------------------------------------- */
@@ -607,15 +614,8 @@ h3 {
   background-size: cover;
 }
 
-#a25{
-  background-image: url("./resources/a25_1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#grid-child-image-proj25{
-  background-image: url("./resources/a25_2.jpg");
+#a25, #grid-child-image-proj25{
+  background-image: url("./resources/a25.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -642,6 +642,13 @@ h3 {
   background-size: cover;
 }
 
+#a28, #grid-child-image-proj28{
+  background-image: url("./resources/a28.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .grid-child-image:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.438),0 12px 40px 0 rgba(0, 0, 0, 0.514);
   cursor: pointer;
@@ -655,7 +662,8 @@ h3 {
 #a16:hover, #a17:hover, #a18:hover,
 #a19:hover, #a20:hover, #a21:hover,
 #a22:hover, #a23:hover, #a24:hover,
-#a25:hover, #a26:hover, #a27:hover {
+#a25:hover, #a26:hover, #a27:hover,
+#a28:hover {
   background-color: #dadada;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
   filter: saturate(1);

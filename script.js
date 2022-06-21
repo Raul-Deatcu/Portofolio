@@ -434,3 +434,19 @@ if (event.target == modal27) {
 }
 })
 //-----------------------------------------------------
+//Modal project 28
+var modal28 = document.getElementById("myModal28");
+var btn28 = document.getElementById("a28");
+var span28 = document.getElementById("close28"); 
+btn28.onclick = function() {
+modal28.style.display = "block";
+}
+span28.onclick = function() {
+modal28.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+if (event.target == modal28) {
+  modal28.style.display = "none";
+}
+})
+//-----------------------------------------------------
