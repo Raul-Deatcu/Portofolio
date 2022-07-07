@@ -209,8 +209,8 @@ label:before {
 #FLcartography:checked ~ .projContainer .FLcartography,
 #FLprogramming:checked ~ .projContainer .FLprogramming,
 #FLdatabases:checked ~ .projContainer .FLdatabases,
-#FLPautomation:checked ~ .projContainer .FLPautomation,
-#LPresearch:checked ~ .projContainer .LPresearch,
+#FLautomation:checked ~ .projContainer .FLautomation,
+#FLresearch:checked ~ .projContainer .FLresearch,
 #FLwebgis:checked ~ .projContainer .FLwebgis,
 #FLdem:checked ~ .projContainer .FLdem
 {
@@ -670,6 +670,13 @@ h3 {
   background-size: cover;
 }
 
+#a31, #grid-child-image-proj31{
+  background-image: url("./resources/a31.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .grid-child-image:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.438),0 12px 40px 0 rgba(0, 0, 0, 0.514);
   cursor: pointer;
@@ -684,7 +691,8 @@ h3 {
 #a19:hover, #a20:hover, #a21:hover,
 #a22:hover, #a23:hover, #a24:hover,
 #a25:hover, #a26:hover, #a27:hover,
-#a28:hover, #a29:hover, #a30:hover {
+#a28:hover, #a29:hover, #a30:hover,
+#a31:hover {
   background-color: #dadada;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
   filter: saturate(1);
