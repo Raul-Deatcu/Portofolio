@@ -498,3 +498,19 @@ if (event.target == modal31) {
 }
 })
 //-----------------------------------------------------
+//Modal project 32
+var modal32 = document.getElementById("myModal32");
+var btn32 = document.getElementById("a32");
+var span32 = document.getElementById("close32"); 
+btn32.onclick = function() {
+modal32.style.display = "block";
+}
+span32.onclick = function() {
+modal32.style.display = "none";
+}
+window.addEventListener('click', function(event) {
+if (event.target == modal32) {
+  modal32.style.display = "none";
+}
+})
+//-----------------------------------------------------

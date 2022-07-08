@@ -677,6 +677,13 @@ h3 {
   background-size: cover;
 }
 
+#a32, #grid-child-image-proj32{
+  background-image: url("./resources/a32.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .grid-child-image:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.438),0 12px 40px 0 rgba(0, 0, 0, 0.514);
   cursor: pointer;
@@ -692,7 +699,7 @@ h3 {
 #a22:hover, #a23:hover, #a24:hover,
 #a25:hover, #a26:hover, #a27:hover,
 #a28:hover, #a29:hover, #a30:hover,
-#a31:hover {
+#a31:hover, #a32:hover {
   background-color: #dadada;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
   filter: saturate(1);
